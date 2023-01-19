@@ -166,7 +166,7 @@ namespace FoodCS
     The class below generates the outlets. In the simulation, outlets are where the households buy the food. 
     
     Each outlet has its own x,y coords in the settlement.
-    "IDs of outlets are not printed properly. THis is because they are actually zero-indexed and not one-indexed. This makes it unnecessarily difficult
+    "IDs of outlets are not printed properly. This is because they are actually zero-indexed and not one-indexed. This makes it unnecessarily difficult
     for the user to change/modify households. "
     */
     class Outlet
@@ -251,7 +251,7 @@ namespace FoodCS
     /*
     The class below is used to create the companies in the simulation. Each instance of company has its own set of outlets.
     
-    " It is is important to note that companies cannnot go bankrupt"
+    " It is is important to note that companies cannot go bankrupt"
     
     */ 
     
