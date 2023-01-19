@@ -113,7 +113,7 @@ namespace FoodCS
             Household temp = new Household(x, y);
             households.Add(temp);
         }
-        //displays all the households in the settlement - "not paged at all(not in any way) "
+        //displays all the households in the settlement - "not paged at all(not in any way(not in the slightest)) "
         public void DisplayHouseholds()
         {
             Console.WriteLine("\n**********************************");
@@ -618,6 +618,7 @@ namespace FoodCS
             }
             else
             {
+                //unrealistic when compared to real life
                 Console.WriteLine("The cost of fuel has gone down by " + fuelCostChange.ToString() + " for " + companies[companyNo].GetName());
                 fuelCostChange *= -1;
             }
